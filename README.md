@@ -342,13 +342,13 @@ gen_answer_prompt = ChatPromptTemplate.from_messages(
 
 专家访谈的内容会保存在本地
 
-![image.png](国内模型实现+Storm+906253ba-0c3d-414b-9268-f7062bd52ea3/image 2.png)
+![image.png](https://github.com/susirial/MojuanStorm/blob/main/docs/files_2.png)
 
-![image.png](国内模型实现+Storm+906253ba-0c3d-414b-9268-f7062bd52ea3/image 3.png)
+![image.png](https://github.com/susirial/MojuanStorm/blob/main/docs/files.png)
 
 专家对话
 
-![image.png](国内模型实现+Storm+906253ba-0c3d-414b-9268-f7062bd52ea3/image 4.png)
+![image.png](https://github.com/susirial/MojuanStorm/blob/main/docs/talks.png)
 
 **专家**：'So you said you were writing an article on How a Finacial Therapist Can Ease your money worries?'
 
