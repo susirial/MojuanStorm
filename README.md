@@ -6,9 +6,72 @@ Github [https://github.com/stanford-oval/storm/](https://github.com/stanford-ova
 
 Langchain [https://langchain-ai.github.io/langgraph/tutorials/storm/storm/?h=storm](https://langchain-ai.github.io/langgraph/tutorials/storm/storm/?h=storm)
 
+**Inspired by Above projects**
+
+**亮点**
+
+- **使用国内模型和工具**
+
+- **代码整合在一个文件**
+
+- **简单**
+
+**基本原理**
+
 ![image.png](国内模型实现+Storm+906253ba-0c3d-414b-9268-f7062bd52ea3/image 1.png)
 
 ![whiteboard_exported_image (1).png](国内模型实现+Storm+906253ba-0c3d-414b-9268-f7062bd52ea3/whiteboard_exported_image++1+.png)
+
+---
+
+快速开始
+
+- 网易有道 BCE 嵌入模型 （必须） [https://github.com/netease-youdao/BCEmbedding](https://github.com/netease-youdao/BCEmbedding)
+
+- Glm4 （必须）[https://bigmodel.cn/dev/howuse/introduction](https://bigmodel.cn/dev/howuse/introduction)
+
+- Doubao （必须）[https://www.volcengine.com/product/doubao](https://www.volcengine.com/product/doubao)
+
+- Chroma (必须) [https://python.langchain.com/v0.2/docs/integrations/vectorstores/chroma/#basic-example-including-saving-to-disk](https://python.langchain.com/v0.2/docs/integrations/vectorstores/chroma/#basic-example-including-saving-to-disk)
+
+```JavaScript
+# Storm 配置
+
+# 文章标题， 修改成你想要的话题
+example_topic = "How a Finacial Therapist Can Ease your money worries"
+
+# ----- 嵌入模型配置 BCE 嵌入模型 （需要使用网易有道本地嵌入模型）
+# 下载模型看这里 https://github.com/netease-youdao/BCEmbedding
+# 本地嵌入模型路径
+LOCAL_EMBEDDING_MODEL_PATH = "D:\LLM\\bce_modesl\\bce-embedding-base_v1"
+
+# 默认使用GPU
+EMBEDDING_MODEL_KWARGS = {'device': 'cuda:0'}
+# 使用 CPU
+#EMBEDDING_MODEL_KWARGS = {'device': 'cpu'}
+EMBEDDING_ENCODE_KWARGS = {'batch_size': 32, 'normalize_embeddings': True, }
+
+# ----- Chroma 向量数据库配置 （修改成你的路径）
+CHROMA_DB_PATH = "D:\\LLM\\my_projects\\chroma_db\\ai_docs"
+
+# ----- Glm4 （修改成你的KEY）
+# Zhipu AI API Key
+# 设置你的 ZHIPU_AK ： ZHIPU_AK='xxxxxxxxxxxxxxxx'
+
+
+# ----- 豆包搜索引擎 （修改成你的KEY）
+# 你的火山引擎 ARK_AKEY 和 ARK_SKEY
+# ARK_AKEY='xxxxxxxxxxxxxxxx'
+# ARK_SKEY='xxxxxxxxxxxxxxxx'
+```
+
+**运行**
+
+```JavaScript
+python storms_natives.py
+```
+
+---
 
 【1】 生成大纲初稿
 
