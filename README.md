@@ -1,6 +1,6 @@
 **智谱清言 + 豆包**
 
-![image.png](国内模型实现+Storm+906253ba-0c3d-414b-9268-f7062bd52ea3/image.png)
+![image.png](https://github.com/susirial/MojuanStorm/blob/main/docs/logos.png)
 
 Github [https://github.com/stanford-oval/storm/](https://github.com/stanford-oval/storm/)
 
@@ -18,9 +18,9 @@ Langchain [https://langchain-ai.github.io/langgraph/tutorials/storm/storm/?h=sto
 
 **基本原理**
 
-![image.png](国内模型实现+Storm+906253ba-0c3d-414b-9268-f7062bd52ea3/image 1.png)
+![image.png](https://github.com/susirial/MojuanStorm/blob/main/docs/storm_logic.png)
 
-![whiteboard_exported_image (1).png](国内模型实现+Storm+906253ba-0c3d-414b-9268-f7062bd52ea3/whiteboard_exported_image++1+.png)
+![whiteboard_exported_image (1).png](https://github.com/susirial/MojuanStorm/blob/main/docs/mojuan_storm_logic.png)
 
 ---
 
