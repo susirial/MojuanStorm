@@ -292,7 +292,7 @@ description='Dr. Smith will bring a psychological perspective to the article, ex
 
 【5】专家对话 图（**langgraph**）
 
-![whiteboard_exported_image (2).png](国内模型实现+Storm+906253ba-0c3d-414b-9268-f7062bd52ea3/whiteboard_exported_image++2+.png)
+![whiteboard_exported_image (2).png](https://github.com/susirial/MojuanStorm/blob/main/docs/talks.png)
 
 角色提问
 
